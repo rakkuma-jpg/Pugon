@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net10.0-android;net10.0-ios;net10.0-maccatalyst</TargetFrameworks>
@@ -41,6 +41,9 @@
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiImage Include="Resources\Images\buttons_logo\bell.png" />
+		<MauiImage Include="Resources\Images\buttons_logo\book.png" />
+		<MauiImage Include="Resources\Images\buttons_logo\favorites.png" />
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
@@ -57,8 +60,52 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\buttons_logo\bell.png" />
+	  <None Remove="Resources\Images\buttons_logo\book.png" />
+	  <None Remove="Resources\Images\buttons_logo\favorites.png" />
+	  <None Remove="Resources\Images\buttons_logo\home.png" />
+	  <None Remove="Resources\Images\buttons_logo\loffai.png" />
+	  <None Remove="Resources\Images\buttons_logo\profile.png" />
+	  <None Remove="Resources\Images\buttons_logo\settings.png" />
+	  <None Remove="Resources\Images\buttons_logo\unit_chart.png" />
+	  <None Remove="Resources\Images\main_logo\pugon_login.png" />
+	  <None Remove="Resources\Images\main_logo\pugon_logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\buttons_logo\home.png" />
+	  <MauiImage Include="Resources\Images\buttons_logo\loffai.png" />
+	  <MauiImage Include="Resources\Images\buttons_logo\profile.png" />
+	  <MauiImage Include="Resources\Images\buttons_logo\settings.png" />
+	  <MauiImage Include="Resources\Images\buttons_logo\unit_chart.png" />
+	  <MauiImage Include="Resources\Images\main_logo\pugon_login.png" />
+	  <MauiImage Include="Resources\Images\main_logo\pugon_logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="MainPage.xaml.cs">
+	    <DependentUpon>MainPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="View\" />
+	</ItemGroup>
+	
+	<PropertyGroup>
+    	  <MauiLinkMode>None</MauiLinkMode>
+	</PropertyGroup>
 
 </Project>

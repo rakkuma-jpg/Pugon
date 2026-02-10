@@ -7,8 +7,13 @@
     Title="Pugon">
 
     <ShellContent
-        Title="Login"
+        Shell.NavBarIsVisible="true"
+        Title="MainPage"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-
+    <ShellContent 
+        Shell.NavBarIsVisible="true"
+        Title="HomePage"
+        ContentTemplate="{DataTemplate local:HomePage}" 
+        Route="HomePage" />
 </Shell>
