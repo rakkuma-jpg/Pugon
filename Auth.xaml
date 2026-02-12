@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PugonPrototype.Auth"
+             Title="Auth"
+             BackgroundColor="#f3e297">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="5" 
+        Spacing="10"
+        VerticalOptions="Start">
+            <!-- Logo -->
+            <Border Grid.Row="0" 
+            BackgroundColor="Transparent"
+            HorizontalOptions="Fill"
+            Stroke="Transparent"
+            StrokeThickness="0">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="0,0,20,20" />
+                </Border.StrokeShape>
+                <Image
+            Source="pugon_login.png"
+            HeightRequest="250" 
+            WidthRequest="250" 
+            Aspect="AspectFit" 
+            HorizontalOptions="Center"
+            Margin="0,0,0,0" />
+            </Border>
+            <!-- Username Entry -->
+            <Border 
+            StrokeShape="RoundRectangle 12" 
+            HeightRequest="40" 
+            WidthRequest="275" 
+            Margin="0,60,0,0" 
+            BackgroundColor="#553600" 
+            HorizontalOptions="Center">
+                <Entry 
+                TextColor="White" 
+                BackgroundColor="#553600" 
+                FontFamily="canva-sans-regular" 
+                FontSize="14"
+                />
+            </Border>
+            <Label
+            Text="Username"
+            TextColor="#553600" 
+            FontFamily="canva-sans-bold"
+            FontAttributes="Bold"
+            FontSize="14" 
+            HorizontalOptions="Center"
+            Margin="0,0,200,0"/>
+            <!-- Password Entry -->
+            <Border 
+            StrokeShape="RoundRectangle 12" 
+            HeightRequest="40" 
+            WidthRequest="275" 
+            BackgroundColor="#553600" 
+            HorizontalOptions="Center">
+                <Entry 
+                TextColor="White" 
+                BackgroundColor="#553600" 
+                FontFamily="canva-sans-regular" 
+                FontSize="14" 
+                IsPassword="True"/>
+            </Border>
+            <Label 
+            Text="Password" 
+            TextColor="#553600" 
+            FontFamily="canva-sans-bold"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Margin="0,0,205,0"/>
+            <!-- Buttons -->
+            <HorizontalStackLayout 
+            Spacing="24" 
+            Margin="0,40,0,0" 
+            HorizontalOptions="Center">
+                <Button 
+                Text="Sign Up" 
+                BackgroundColor="#c4914a" 
+                TextColor="Black" 
+                FontFamily="canva-sans-bold" 
+                FontSize="18" 
+                CornerRadius="50" 
+                HeightRequest="50" 
+                WidthRequest="125"
+                />
+                <Button 
+                Text="Login"
+                BackgroundColor="#c4914a" 
+                TextColor="Black" 
+                FontFamily="canva-sans-bold" 
+                FontSize="18" 
+                CornerRadius="50" 
+                HeightRequest="50" 
+                WidthRequest="125"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

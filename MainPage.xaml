@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PugonPrototype.MainPage"
+             xmlns:views="clr-namespace:PugonPrototype.Views"
+             BackgroundColor="#f3e297">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- TOP HEADER -->
+        <Border Grid.Row="0" 
+            BackgroundColor="Transparent"
+            HorizontalOptions="Fill"
+            Stroke="Transparent"
+            StrokeThickness="0">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="0,0,20,20" />
+            </Border.StrokeShape>
+            <Grid Padding="5" ColumnDefinitions="Auto,*,Auto" BackgroundColor="#c4914a">
+                <!-- LEFT: LOGO -->
+                <Image Grid.Column="0"
+                   Source="pugon_login.png"
+                   HeightRequest="50"
+                   WidthRequest="50"
+                   VerticalOptions="Center"/>
+                <!-- MIDDLE: STATUS -->
+                <Label Grid.Column="1"
+                   Text="Status: Online"
+                   TextColor="LightGreen"
+                   FontSize="16"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Margin="10,0,0,0"/>
+                <!-- RIGHT: NOTIFICATION + SETTINGS -->
+                <HorizontalStackLayout Grid.Column="2" Spacing="16" VerticalOptions="Center">
+                    <!-- NOTIFICATION -->
+                    <ContentView>
+                        <ContentView.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Notification_Clicked" />
+                        </ContentView.GestureRecognizers>
+                        <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                            <Image Source="bell.png" HeightRequest="45" WidthRequest="45" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </ContentView>
+                    <!-- SETTINGS -->
+                    <ContentView>
+                        <ContentView.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Settings_Clicked" />
+                        </ContentView.GestureRecognizers>
+                        <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                            <Image Source="settings.png" HeightRequest="45" WidthRequest="45" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </ContentView>
+                </HorizontalStackLayout>
+            </Grid>
+        </Border>
+        <!-- DYNAMIC CONTENT AREA -->
+        <ContentView x:Name="ContentArea"
+                 Grid.Row="1"
+                 BackgroundColor="#f3e297">
+        </ContentView>
+        <!-- BOTTOM NAVIGATION BAR -->
+        <Border Grid.Row="2" 
+            BackgroundColor="Transparent"
+            HorizontalOptions="Fill"
+            Stroke="Transparent"
+            StrokeThickness="0">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20,20,0,0" />
+            </Border.StrokeShape>
+            <Grid BackgroundColor="#c4914a">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <!-- HOME TAB -->
+                <ContentView Grid.Column="0" x:Name="HomeTab">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Home_Clicked" />
+                    </ContentView.GestureRecognizers>
+                    <VerticalStackLayout Spacing="2" HorizontalOptions="Fill" >
+                        <Image Source="home.png" 
+                           HeightRequest="50" 
+                           WidthRequest="50" 
+                           HorizontalOptions="Center"/>
+                        <Label Text="Home" 
+                           FontSize="12" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </ContentView>
+                <!-- RECIPES TAB -->
+                <ContentView Grid.Column="1" x:Name="RecipesTab">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Recipes_Clicked" />
+                    </ContentView.GestureRecognizers>
+                    <VerticalStackLayout Spacing="2" HorizontalOptions="Fill" >
+                        <Image Source="book.png" 
+                           HeightRequest="50" 
+                           WidthRequest="50" 
+                           HorizontalOptions="Center"/>
+                        <Label Text="Recipes" 
+                           FontSize="12" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </ContentView>
+                <!-- TINAPAI TAB -->
+                <ContentView Grid.Column="2" x:Name="ChatbotTab">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Chatbot_Clicked" />
+                    </ContentView.GestureRecognizers>
+                    <VerticalStackLayout Spacing="2" HorizontalOptions="Fill" >
+                        <Image Source="loffai.png" 
+                           HeightRequest="50" 
+                           WidthRequest="50" 
+                           HorizontalOptions="Center"/>
+                        <Label Text="AI Chatbot" 
+                           FontSize="12" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </ContentView>
+                <!-- FAVORITES TAB -->
+                <ContentView Grid.Column="3" x:Name="FavoritesTab">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Favorites_Clicked" />
+                    </ContentView.GestureRecognizers>
+                    <VerticalStackLayout Spacing="2" HorizontalOptions="Fill" >
+                        <Image Source="favorites.png" 
+                           HeightRequest="50" 
+                           WidthRequest="50" 
+                           HorizontalOptions="Center"/>
+                        <Label Text="Favorites" 
+                           FontSize="12" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </ContentView>
+                <!-- ACCOUNT TAB -->
+                <ContentView Grid.Column="4" x:Name="AccountTab">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Account_Clicked" />
+                    </ContentView.GestureRecognizers>
+                    <VerticalStackLayout Spacing="2" HorizontalOptions="Fill" >
+                        <Image Source="profile.png" 
+                           HeightRequest="50" 
+                           WidthRequest="50" 
+                           HorizontalOptions="Center"/>
+                        <Label Text="Account" 
+                           FontSize="12" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </ContentView>
+            </Grid>
+        </Border>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\recipesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\recipesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\recipesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\recipesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\auth.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:auth.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\auth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:auth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\chatbotview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\chatbotview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\views\\accountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:views\\accountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|c:\\users\\ghost\\source\\repos\\pugonprototype\\pugonprototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{07943C2E-0E4D-8B7F-70DF-5CC071D41F96}|PugonPrototype.csproj|solutionrelative:pugonprototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Auth.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Auth.xaml",
+              "RelativeDocumentMoniker": "Auth.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Auth.xaml",
+              "RelativeToolTip": "Auth.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T18:10:47.802Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registration.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Registration.xaml",
+              "RelativeDocumentMoniker": "Registration.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Registration.xaml",
+              "RelativeToolTip": "Registration.xaml",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAOQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T18:14:18.592Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T18:19:56.604Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:41:48.361Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Auth.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Auth.xaml.cs",
+              "RelativeDocumentMoniker": "Auth.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Auth.xaml.cs",
+              "RelativeToolTip": "Auth.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T17:14:55.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registration.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Registration.xaml.cs",
+              "RelativeDocumentMoniker": "Registration.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Registration.xaml.cs",
+              "RelativeToolTip": "Registration.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T17:14:30.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\AccountView.xaml",
+              "RelativeDocumentMoniker": "Views\\AccountView.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\AccountView.xaml",
+              "RelativeToolTip": "Views\\AccountView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T16:08:04.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FavoritesView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\FavoritesView.xaml",
+              "RelativeDocumentMoniker": "Views\\FavoritesView.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\FavoritesView.xaml",
+              "RelativeToolTip": "Views\\FavoritesView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T16:06:19.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatbotView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\ChatbotView.xaml",
+              "RelativeDocumentMoniker": "Views\\ChatbotView.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\ChatbotView.xaml",
+              "RelativeToolTip": "Views\\ChatbotView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T16:04:06.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipesView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\RecipesView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RecipesView.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\RecipesView.xaml.cs",
+              "RelativeToolTip": "Views\\RecipesView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:43:53.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\HomeView.xaml.cs",
+              "RelativeToolTip": "Views\\HomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:39:30.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipesView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\RecipesView.xaml",
+              "RelativeDocumentMoniker": "Views\\RecipesView.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\RecipesView.xaml",
+              "RelativeToolTip": "Views\\RecipesView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T15:39:19.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Views\\HomeView.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\Views\\HomeView.xaml",
+              "RelativeToolTip": "Views\\HomeView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T15:37:31.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T00:06:43.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T18:24:59.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T18:13:26.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T18:13:23.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PugonPrototype.csproj",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\PugonPrototype.csproj",
+              "RelativeDocumentMoniker": "PugonPrototype.csproj",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\PugonPrototype.csproj",
+              "RelativeToolTip": "PugonPrototype.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-10T17:48:13.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\PugonPrototype\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T17:31:17.434Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
