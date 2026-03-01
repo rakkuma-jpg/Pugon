@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Pugon.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Pugon"
+    xmlns:pages="clr-namespace:Pugon.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Pugon"
+    x:Name="ShellRoot"
+    FlyoutBackgroundColor="{AppThemeBinding Light=#fbe2cd, Dark=#212121}">
+
+    <ShellContent
+        Title="Loading"
+        ContentTemplate="{DataTemplate pages:LoadingPage}"
+        Route="LoadingPage"
+        Shell.FlyoutBehavior="Disabled"
+        Shell.FlyoutItemIsVisible="False"
+        Shell.NavBarIsVisible="False"/>
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate pages:LoginPage}"
+        Route="LoginPage"
+        Shell.FlyoutBehavior="Disabled"
+        Shell.FlyoutItemIsVisible="False"/>
+
+    <TabBar>
+        <Tab Title="Home" Icon="dotnet_bot.png">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:HomePage}" 
+                Route="HomePage"
+                Shell.FlyoutBehavior="Disabled"
+                Shell.FlyoutItemIsVisible="False"/>
+        </Tab>
+        <Tab Title="Recipes" Icon="dotnet_bot.png">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:RecipesPage}" 
+                Route="RecipesPage"
+                Shell.FlyoutBehavior="Disabled"
+                Shell.FlyoutItemIsVisible="False"/>
+        </Tab>
+        <Tab Title="Chatbot" Icon="dotnet_bot.png">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:ChatbotPage}" 
+                Route="ChatbotPage"
+                Shell.FlyoutBehavior="Disabled"/>
+        </Tab>
+        <Tab Title="Favorites" Icon="dotnet_bot.png">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:FavoritesPage}" 
+                Route="FavoritesPage"
+                Shell.FlyoutBehavior="Disabled"
+                Shell.FlyoutItemIsVisible="False"/>
+        </Tab>
+        <Tab Title="Profile" Icon="dotnet_bot.png">
+            <ShellContent 
+                ContentTemplate="{DataTemplate pages:ProfilePage}"
+                Route="ProfilePage"
+                Shell.FlyoutItemIsVisible="False"/>
+        </Tab>
+    </TabBar>
+    <MenuItem Text="Settings"
+          IconImageSource="dotnet_bot.png"
+          Command="{Binding Source={x:Reference ShellRoot}, Path=BindingContext.NavigateToSettingsCommand}" 
+              Shell.NavBarIsVisible="False"/>
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="12">
+            <Button Text="SignOut" 
+                    Command="{Binding Source={x:Reference ShellRoot}, Path=BindingContext.SignOutCommand}" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
+</Shell>

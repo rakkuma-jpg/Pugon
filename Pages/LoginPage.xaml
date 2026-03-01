@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pugon.Pages.LoginPage"
+             xmlns:viewmodel="clr-namespace:Pugon.ViewModel"
+             Title="Login">
+    <VerticalStackLayout>
+        <Border 
+            StrokeShape="RoundRectangle 12" 
+            HeightRequest="40" 
+            WidthRequest="275" 
+            Margin="0,60,0,0" 
+            BackgroundColor="#553600" 
+            HorizontalOptions="Center">
+            <Entry 
+                TextColor="White" 
+                BackgroundColor="#553600" 
+                FontFamily="canva-sans-regular" 
+                FontSize="14"
+                />
+        </Border>
+        <Label
+            Text="Username"
+            TextColor="#553600" 
+            FontFamily="canva-sans-bold"
+            FontAttributes="Bold"
+            FontSize="14" 
+            HorizontalOptions="Center"
+            Margin="0,0,200,0"/>
+        <!-- Password Entry -->
+        <Border 
+            StrokeShape="RoundRectangle 12" 
+            HeightRequest="40" 
+            WidthRequest="275" 
+            BackgroundColor="#553600" 
+            HorizontalOptions="Center">
+            <Entry 
+            TextColor="White" 
+            BackgroundColor="#553600" 
+            FontFamily="canva-sans-regular" 
+            FontSize="14" 
+            IsPassword="True"/>
+        </Border>
+        <Label 
+            Text="Password" 
+            TextColor="#553600" 
+            FontFamily="canva-sans-bold"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Margin="0,0,205,0"/>
+        <Button
+            Text="Login"
+            Clicked="Button_Clicked"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

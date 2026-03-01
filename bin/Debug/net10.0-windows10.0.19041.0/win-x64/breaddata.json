@@ -1,0 +1,27 @@
+{
+  "difficulty": [
+    {"level": "easy"},
+    {"level": "medium"},
+    {"level": "hard"}
+  ],
+  "bread_details": [
+    {
+      "difficulty": "easy",
+      "name": "PANDESAL",
+      "description": "Pandesal (from Spanish *pan de sal*, meaning \"salt bread\") is a staple Filipino bread roll that’s slightly sweet and commonly eaten for breakfast or as a snack. It has a soft, fluffy interior with a lightly golden crust rolled in fine breadcrumbs. Although its name refers to salt, modern pandesal is subtly sweet rather than salty and is often enjoyed fresh from bakeries with coffee or spread with butter, cheese, jam, or other fillings. ",
+      "image_url": "https://raw.githubusercontent.com/rakkuma-jpg/virtual_storage/main/pandesal.png"
+    },
+    {
+      "difficulty": "medium",
+      "name": "SPANISH BREAD",
+      "description": "Filipino Spanish bread is a popular bakery staple characterized by its soft, cylindrical shape and sweet, buttery filling. Despite its name, this treat is a purely Filipino creation and is not traditionally found in Spain. The bread features a yeasted dough similar to Pandesal, but it is enriched with eggs and butter for a much fluffier texture. Inside each roll is a rich paste made from a mixture of butter, brown sugar, and breadcrumbs. It is traditionally dusted with fine breadcrumbs before baking and is best enjoyed warm alongside a hot cup of coffee or chocolate.",
+      "image_url": "https://raw.githubusercontent.com/rakkuma-jpg/virtual_storage/main/spanish_bread.png"
+    },
+    {
+      "difficulty": "hard",
+      "name": "PANDE COCO",
+      "description": "Pan de coco, literally 'coconut bread' in Spanish, is a classic Filipino sweet roll defined by its soft, golden exterior and dense, aromatic filling. Unlike its savory Honduran ancestor introduced in the 1600s, the Filipino version is strictly a sweet treat featuring a center of shredded coconut meat cooked with brown sugar and butter. The dough is typically enriched with milk and eggs, resulting in a pillowy bun that perfectly encases the sticky, caramelized coconut 'bukayo' inside. It is a staple of local panaderias, commonly enjoyed as a midday merienda or a comforting breakfast alongside a hot beverage. These round, hand-sized buns are often served warm to highlight the rich, tropical flavor of the sweetened coconut filling.",
+      "image_url": "https://raw.githubusercontent.com/rakkuma-jpg/virtual_storage/main/pan_de_coco.png"
+    }
+  ]
+}

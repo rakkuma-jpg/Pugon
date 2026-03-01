@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pugon</name>
+    </assembly>
+    <members>
+        <member name="T:Pugon.ViewModel.AppShellViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:Pugon.ViewModel.AppShellViewModel.signOutCommand">
+            <summary>The backing field for <see cref="P:Pugon.ViewModel.AppShellViewModel.SignOutCommand"/>.</summary>
+        </member>
+        <member name="P:Pugon.ViewModel.AppShellViewModel.SignOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Pugon.ViewModel.AppShellViewModel.SignOut"/>.</summary>
+        </member>
+        <member name="F:Pugon.ViewModel.AppShellViewModel.navigateToSettingsCommand">
+            <summary>The backing field for <see cref="P:Pugon.ViewModel.AppShellViewModel.NavigateToSettingsCommand"/>.</summary>
+        </member>
+        <member name="P:Pugon.ViewModel.AppShellViewModel.NavigateToSettingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Pugon.ViewModel.AppShellViewModel.NavigateToSettings"/>.</summary>
+        </member>
+        <member name="T:Pugon.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

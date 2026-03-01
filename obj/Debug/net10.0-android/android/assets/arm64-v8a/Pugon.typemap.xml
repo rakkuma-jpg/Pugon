@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Pugon" mvid="287ba1563cad4c62b5b525e0e6f105e3">
+  <java-to-managed>
+    <entry java-name="crc64504df6e0d913f580/MainActivity" managed-name="Pugon.MainActivity, Pugon" managed-type-token-id="33554441" />
+    <entry java-name="crc64504df6e0d913f580/MainApplication" managed-name="Pugon.MainApplication, Pugon" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64504df6e0d913f580/MainActivity" managed-name="Pugon.MainActivity, Pugon" managed-type-token-id="33554441" />
+    <entry java-name="crc64504df6e0d913f580/MainApplication" managed-name="Pugon.MainApplication, Pugon" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>

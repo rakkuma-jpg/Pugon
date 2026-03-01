@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pugon.Pages.SettingsPage"
+             xmlns:model="clr-namespace:Pugon.Model"
+             Title="Settings"
+             Shell.NavBarIsVisible="True">
+    <Grid RowDefinitions="Auto,Auto,*" RowSpacing="10">
+        <Grid Grid.Row="0" RowDefinitions="Auto,Auto" RowSpacing="25">
+            <Label
+                Grid.Row="0"
+                Text="SETTINGS"
+                TextColor="#553600"
+                FontFamily="canva-sans-bold"
+                FontSize="28"
+                HorizontalTextAlignment="Center"/>
+            <Label
+                Grid.Row="2"
+                Text="ACCOUNT INFO"
+                TextColor="#553600"
+                FontFamily="canva-sans-bold"
+                FontSize="22"
+                HorizontalTextAlignment="Start"/>
+        </Grid>
+        <CollectionView Grid.Row="1">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type model:Settings}">
+                    <model:Settings
+                        Option="TEXT"/>
+                        <model:Settings
+                        Option="SPEECH"/>
+                        <model:Settings
+                        Option="THEMES"/>
+                        <model:Settings
+                        Option="NOTIFICATION"/>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Settings">
+                    <VerticalStackLayout>
+                        <BoxView
+                            HeightRequest="1"
+                            BackgroundColor="#553600"
+                            HorizontalOptions="Fill"
+                            VerticalOptions="Start"/>
+                        <Grid ColumnDefinitions="*,Auto">
+                            <Label
+                                Grid.Column="0"
+                                Text="{Binding Option}"
+                                TextColor="#553600"
+                                FontFamily="canva-sans-bold"
+                                FontSize="22"
+                                VerticalOptions="Center"/>
+                            <Switch
+                                Grid.Column="1"
+                                Scale="1.5"
+                                OffColor="#C8A97E"
+                                OnColor="LightGreen"
+                                ThumbColor="#553600"/>
+                        </Grid>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
