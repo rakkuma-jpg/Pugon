@@ -61,29 +61,85 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0-android36.0": {
           "targetAlias": "net10.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[14.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.20, )"
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Core": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Xaml": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Resizetizer": {
+              "target": "Package",
+              "version": "[10.0.50, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.5, )",
               "autoReferenced": true
+            },
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.4.25, )"
+            },
+            "Plugin.Maui.Popup": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Syncfusion.Maui.AIAssistView": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.DataForm": {
+              "target": "Package",
+              "version": "[33.1.44, )"
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
@@ -108,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -387,23 +443,79 @@
         "net10.0-ios26.2": {
           "targetAlias": "net10.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[14.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.20, )"
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Core": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Xaml": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Resizetizer": {
+              "target": "Package",
+              "version": "[10.0.50, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.5, )",
               "autoReferenced": true
+            },
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.4.25, )"
+            },
+            "Plugin.Maui.Popup": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Syncfusion.Maui.AIAssistView": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.DataForm": {
+              "target": "Package",
+              "version": "[33.1.44, )"
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
@@ -428,7 +540,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -707,23 +819,79 @@
         "net10.0-maccatalyst26.2": {
           "targetAlias": "net10.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[14.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.20, )"
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Core": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Xaml": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Resizetizer": {
+              "target": "Package",
+              "version": "[10.0.50, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.5, )",
               "autoReferenced": true
+            },
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.4.25, )"
+            },
+            "Plugin.Maui.Popup": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Syncfusion.Maui.AIAssistView": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.DataForm": {
+              "target": "Package",
+              "version": "[33.1.44, )"
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
@@ -749,7 +917,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1028,17 +1196,73 @@
         "net10.0-windows10.0.19041": {
           "targetAlias": "net10.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[14.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.20, )"
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Core": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Controls.Xaml": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "Microsoft.Maui.Resizetizer": {
+              "target": "Package",
+              "version": "[10.0.50, )"
+            },
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.4.25, )"
+            },
+            "Plugin.Maui.Popup": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Syncfusion.Maui.AIAssistView": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.DataForm": {
+              "target": "Package",
+              "version": "[33.1.44, )"
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[33.1.45, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
@@ -1066,7 +1290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1350,7 +1574,7 @@
         "android-x64": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

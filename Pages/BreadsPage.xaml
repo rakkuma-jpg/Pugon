@@ -1,13 +1,156 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Pugon.Pages.BreadsPage"
              xmlns:model="clr-namespace:Pugon.Model"
-             Title="BreadsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             xmlns:viewmodel="clr-namespace:Pugon.ViewModel"
+             xmlns:popup ="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
+             xmlns:effectsView="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+             xmlns:progressBar="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar"
+             x:DataType="viewmodel:BreadsViewModel"
+             x:Class="Pugon.Pages.BreadsPage"
+             Title="">
+    <ContentPage.Resources>
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="FontFamily" Value="InterVariable"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <!--POPUP-->
+            <popup:SfPopup x:Name="PastryPopup" ShowHeader="False"
+                           HeightRequest="{OnPlatform Android=335, WinUI=335}">
+                <popup:SfPopup.PopupStyle>
+                    <popup:PopupStyle CornerRadius="0" />
+                </popup:SfPopup.PopupStyle>
+
+                <popup:SfPopup.ContentTemplate>
+                    <DataTemplate>
+                        <Grid BackgroundColor="#cca881" Padding="6" 
+                              HorizontalOptions="Fill">
+                            
+                            <ScrollView>
+                                
+                                <StackLayout Spacing="10">
+                                    <Image Source="{Binding Image_Url}" HeightRequest="115"
+                                            WidthRequest="115" Aspect="AspectFill">
+                                        <Image.Shadow>
+                                            <Shadow Brush="Black" Offset="10,10"
+                                                    Radius="10" Opacity="0.2"/>
+                                        </Image.Shadow>
+                                    </Image>
+                                    <Label Text="{Binding Name}" TextColor="#553600"
+                                           FontSize="22" FontAttributes="Bold" Style="{StaticResource LabelStyle}"
+                                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <ScrollView HeightRequest="100" VerticalScrollBarVisibility="Always">
+                                        <Label Text="{Binding Description}" Padding="12"
+                                               TextColor="#553600" FontSize="12"
+                                               Style="{StaticResource LabelStyle}" HorizontalTextAlignment="Justify"/>
+                                    </ScrollView>
+
+                                    <Button Text="Start Baking" WidthRequest="125" 
+                                                HeightRequest="35" Padding="0" Margin="0" 
+                                                BackgroundColor="#e9a763" FontAttributes="Bold" 
+                                                FontSize="16" Style="{StaticResource LabelStyle}" CornerRadius="25"
+                                                TextColor="#553600">
+                                        <Button.Shadow>
+                                            <Shadow Brush="Black" Offset="2.5,5"
+                                                        Radius="10" Opacity="0.125"/>
+                                        </Button.Shadow>
+                                    </Button>
+
+                                </StackLayout>
+                                
+                            </ScrollView>
+
+                        </Grid>
+                    </DataTemplate>
+                </popup:SfPopup.ContentTemplate>
+
+            </popup:SfPopup>
+            
+            <!--PASTRIES LIST-->
+            <Grid RowDefinitions="Auto,*" MaximumWidthRequest="{OnPlatform WinUI=824, MacCatalyst=824}">
+                <Label Grid.Row="0" Text="{}" FontAttributes="Bold" FontSize="50" HorizontalTextAlignment="Center"/>
+
+                <ScrollView Grid.Row="1" HorizontalOptions="Center">
+                    <FlexLayout BindableLayout.ItemsSource="{Binding Breads}"
+                        Direction="Row"
+                        Wrap="Wrap"
+                        AlignContent="Start">
+
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="model:BreadDetailModel">
+
+                                <Border Margin="4"
+                                    Padding="0" 
+                                    WidthRequest="120"
+                                    BackgroundColor="Transparent"
+                                    HeightRequest="150"
+                                    StrokeThickness="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="0"/>
+                                    </Border.StrokeShape>
+                                    <Border.Shadow>
+                                        <Shadow Brush="Black"
+                                            Offset="8,8"
+                                            Radius="10"
+                                            Opacity="0.2"/>
+                                    </Border.Shadow>
+
+                                    <StackLayout Spacing="10">
+                                        <effectsView:SfEffectsView TouchDownEffects="Ripple" 
+                                                                   TouchUp="OnCounterClicked">
+                                            <Grid RowDefinitions="Auto,Auto" BackgroundColor="#cfa062">
+                                                <Image Grid.Row="0"
+                                                        HeightRequest="100"
+                                                        WidthRequest="100"
+                                                        Aspect="AspectFill"
+                                                        Source="{Binding Image_Url}" >
+                                                    <Image.Shadow>
+                                                        <Shadow Brush="Black"
+                                                                Offset="10,10"
+                                                                Radius="10"
+                                                                Opacity="0.2"/>
+                                                    </Image.Shadow>
+                                                </Image>
+                                                <VerticalStackLayout Grid.Row="1">
+                                                    <Label Text="{Binding Name}"
+                                                            HorizontalTextAlignment="Center"
+                                                            FontAttributes="Bold"
+                                                            TextColor="#553600"
+                                                            FontSize="12"/>
+                                                </VerticalStackLayout>
+                                            </Grid>
+                                        </effectsView:SfEffectsView>
+
+                                        <Grid ColumnDefinitions="*,Auto" VerticalOptions="Center" >
+                                            <progressBar:SfLinearProgressBar Grid.Column="0" Progress="50"
+                                                                             TrackCornerRadius="10" TrackHeight="11" 
+                                                                             BackgroundColor="Transparent" ProgressPadding="2"
+                                                                             VerticalOptions="Center" ProgressCornerRadius="10"
+                                                                             TrackFill="#e19b59" ProgressFill="#553600"
+                                                                             ProgressHeight="7" SecondaryProgressHeight="7"
+                                                                             SecondaryProgress="100" SecondaryProgressCornerRadius="10"
+                                                                             SecondaryProgressFill="#e3d5bc"/>
+                                            <Label Grid.Column="1"
+                                                    Text="50%"
+                                                    FontSize="10"
+                                                    FontAttributes="Bold"
+                                                    VerticalTextAlignment="Center" />
+                                        </Grid>
+                                    </StackLayout>
+                                    
+                                </Border>
+
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+
+                    </FlexLayout>
+                </ScrollView>
+            </Grid>
+        </Grid>
+
+    </ContentPage.Content>
+
 </ContentPage>
+    

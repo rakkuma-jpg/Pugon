@@ -26,5 +26,6 @@ namespace Pugon.ViewModel
         async Task NavigateToSettings() {
             await Shell.Current.GoToAsync(nameof(SettingsPage));
         }
+
     }
 }

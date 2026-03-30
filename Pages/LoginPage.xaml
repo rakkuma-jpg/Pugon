@@ -4,54 +4,86 @@
              x:Class="Pugon.Pages.LoginPage"
              xmlns:viewmodel="clr-namespace:Pugon.ViewModel"
              Title="Login">
-    <VerticalStackLayout>
-        <Border 
-            StrokeShape="RoundRectangle 12" 
-            HeightRequest="40" 
-            WidthRequest="275" 
-            Margin="0,60,0,0" 
-            BackgroundColor="#553600" 
-            HorizontalOptions="Center">
-            <Entry 
-                TextColor="White" 
-                BackgroundColor="#553600" 
-                FontFamily="canva-sans-regular" 
-                FontSize="14"
-                />
-        </Border>
-        <Label
-            Text="Username"
-            TextColor="#553600" 
-            FontFamily="canva-sans-bold"
-            FontAttributes="Bold"
-            FontSize="14" 
+    <ContentPage.Content>
+        <ScrollView
+            VerticalScrollBarVisibility="Never"
             HorizontalOptions="Center"
-            Margin="0,0,200,0"/>
-        <!-- Password Entry -->
-        <Border 
-            StrokeShape="RoundRectangle 12" 
-            HeightRequest="40" 
-            WidthRequest="275" 
-            BackgroundColor="#553600" 
-            HorizontalOptions="Center">
-            <Entry 
-            TextColor="White" 
-            BackgroundColor="#553600" 
-            FontFamily="canva-sans-regular" 
-            FontSize="14" 
-            IsPassword="True"/>
-        </Border>
-        <Label 
-            Text="Password" 
-            TextColor="#553600" 
-            FontFamily="canva-sans-bold"
-            FontSize="14"
-            HorizontalOptions="Center"
-            Margin="0,0,205,0"/>
-        <Button
-            Text="Login"
-            Clicked="Button_Clicked"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"/>
-    </VerticalStackLayout>
+            VerticalOptions="Center">
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" 
+                  MaximumWidthRequest="{OnPlatform WinUI=386, MacCatalyst=400}"
+                  VerticalOptions="Center"
+                  Padding="18"
+                  RowSpacing="12">
+                <!-- INTRODUCTION -->
+                <Label Grid.Row="0"
+                       Text="Log In"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="InterVariable"
+                       FontAttributes="Bold"
+                       Padding="0,0,0,20"/>
+                <Label Grid.Row="1"
+                       Text="Hello, Welcome back"
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="CanvaSansRegular"
+                       FontSize="14"
+                       Padding="0,0,0,20"/>
+                
+                <!-- CREDENTIALS -->
+                <Border Grid.Row="2" Stroke="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5"/>
+                    </Border.StrokeShape>
+                    <Entry
+                       FontSize="12"
+                       FontFamily="InterVariable"
+                       TextColor="White"
+                       Placeholder="Email"
+                       ClearButtonVisibility="WhileEditing"
+                       BackgroundColor="#c4914a"/>
+                </Border>
+                <Border Grid.Row="3" Stroke="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5"/>
+                    </Border.StrokeShape>
+                    <Entry Grid.Row="3"
+                       FontSize="12"
+                       TextColor="White"
+                       Placeholder="Password"
+                       IsPassword="True"
+                       BackgroundColor="#c4914a"/>
+                </Border>
+
+                <!-- LOGIN BUTTON -->
+                <Button Grid.Row="4"
+                        Clicked="Button_Login_Clicked"
+                        TextColor="White"
+                        Text="LOG IN"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        FontFamily="InterVariable"
+                        BackgroundColor="#553600"
+                        CornerRadius="20"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Center"
+                        Margin="0,20,0,0">
+                </Button>
+
+                <!-- SIGNUP BUTTON -->
+                <HorizontalStackLayout Grid.Row="5" HorizontalOptions="Center" VerticalOptions="End" >
+                    <Label Text="Don't have an account?" FontSize="12" HorizontalOptions="Fill" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                    <Button Text="Sign Up"
+                            TextColor="#512BD4"
+                            FontSize="12"
+                            FontAttributes="Bold"
+                            VerticalOptions="Center"
+                            Clicked="Label_SignUp_Clicked"
+                            CornerRadius="20"
+                            BackgroundColor="Transparent"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

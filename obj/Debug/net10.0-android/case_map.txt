@@ -19,4 +19,6 @@ values\attr;values\attr
 values\colors;values\colors
 values\strings;values\strings
 values\styles;values\styles
+values\styles-material3;values\styles-material3
 xml\microsoft_maui_essentials_fileprovider_file_paths;resources\xml\microsoft_maui_essentials_fileprovider_file_paths
+xml\network_security_config;xml\network_security_config

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pugon.View.OutgoingTextTemplate"
+             xmlns:model="clr-namespace:Pugon.Model"
+             x:DataType="model:ChatMessageInfoModel"
+             Padding="10">
+    <!-- USER MESSAGES -->
+    <ContentView.Content>
+        <Grid ColumnDefinitions="*,Auto" ColumnSpacing="4">
+            <Border
+                Grid.Column="1"
+                Padding="0"
+                BackgroundColor="Transparent"
+                StrokeThickness="0"
+                StrokeShape="RoundRectangle 100">
+                <Image
+                    Grid.Column="1"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Source="{Binding UserAvatar}"/>
+            </Border>
+
+            <Border
+                Grid.Column="0"
+                Padding="1"
+                BackgroundColor="#ad7d4e"
+                StrokeThickness="0"
+                StrokeShape="RoundRectangle 50"
+                HorizontalOptions="End">
+
+                <Border.Content>
+                    <StackLayout Margin="8"
+                        VerticalOptions="Fill">
+
+                        <!--  Message Text  -->
+                        <Label
+                            FontFamily="CanvaSansRegular"
+                            FontSize="14"
+                            HorizontalOptions="End"
+                            LineHeight="1.25"
+                            Text="{Binding Message}"
+                            TextColor="Black"
+                            VerticalOptions="Center"/>
+
+                        <!--  Time  -->
+                        <Label
+                            FontFamily="CanvaSansRegular"
+                            FontSize="11"
+                            HorizontalOptions="End"
+                            LineHeight="1.25"
+                            TextColor="SaddleBrown"
+                            VerticalOptions="Center"
+                            Text="{Binding Time, StringFormat='You • {0:h:mm tt}'}" />
+                    </StackLayout>
+                </Border.Content>
+
+            </Border>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pugon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+818479775847fa236f7a625333b8b350fb1c98e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pugon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pugon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

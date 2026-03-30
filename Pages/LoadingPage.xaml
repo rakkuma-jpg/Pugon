@@ -4,7 +4,7 @@
              x:Class="Pugon.Pages.LoadingPage"
              Title="LoadingPage">
     <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <ActivityIndicator IsRunning="True" />
+        <ActivityIndicator IsRunning="True" Color="Black"/>
         <Label Text="Checking authentication state..."/>
     </VerticalStackLayout>
 </ContentPage>

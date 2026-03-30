@@ -3,125 +3,116 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pugon.Pages.ProfilePage"
              xmlns:model="clr-namespace:Pugon.Model"
-             Title="Pugon">
+             Title="Account">
+    <ContentPage.Resources>
+        <Style x:Key="PugonFont" TargetType="Label">
+            <Setter Property="FontFamily" Value="InterVariable"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never"
+                    Padding="10">
+            <Grid WidthRequest="{OnPlatform WinUI=750, MacCatalyst=750}"
+                  RowDefinitions="Auto, Auto, Auto, Auto, Auto"
+                  RowSpacing="0">
 
-    <Grid>
-        <Grid RowDefinitions="Auto" VerticalOptions="Start" BackgroundColor="DarkGray">
-            <Image Grid.Row="0"
-                   HorizontalOptions="Fill"
-                   Source="linda_walker.jpg"
-                   MaximumWidthRequest="500"/>
-        </Grid>
-        <ScrollView VerticalScrollBarVisibility="Never">
-            <VerticalStackLayout BackgroundColor="Transparent">
-                <Border BackgroundColor="#f3e297" Margin="0,200,0,0" Stroke="Transparent" StrokeThickness="0" >
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="20,20,0,0" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <!-- PROFILE -->
-                        <CollectionView>
-                            <CollectionView.ItemsSource>
-                                <x:Array Type="{x:Type model:Profile}">
-                                    <model:Profile 
-                                        Image="linda_walker.jpg"
-                                        Name="Linda Walker"
-                                        Bio="Baker"/>
-                                </x:Array>
-                            </CollectionView.ItemsSource>
-                            <CollectionView.ItemTemplate>
-                                <DataTemplate x:DataType="model:Profile">
-                                    <HorizontalStackLayout Spacing="10" BackgroundColor="Transparent" Padding="10">
-                                        <Border HeightRequest="100" WidthRequest="100">
-                                            <Border.StrokeShape>
-                                                <RoundRectangle CornerRadius="100"/>
-                                            </Border.StrokeShape>
-                                            <Image Source="{Binding Image}" Aspect="AspectFill"/>
-                                        </Border>
-                                        <VerticalStackLayout VerticalOptions="Center">
-                                            <Label Text="{Binding Name}" FontSize="24" FontFamily="canva-sans-bold" TextColor="#553600"/>
-                                            <Label Text="{Binding Bio}" FontSize="18" FontFamily="canva-sans-bold" TextColor="Gray"/>
-                                        </VerticalStackLayout>
-                                    </HorizontalStackLayout>
-                                </DataTemplate>
-                            </CollectionView.ItemTemplate>
-                        </CollectionView>
+                <Border BackgroundColor="#FFF1B3"
+                        Stroke="Transparent"
+                        Grid.Row="0"
+                        Margin="16,0,16,32">
+                    
+                    <Border Stroke="Transparent"
+                            StrokeThickness="0"
+                            StrokeShape="RoundRectangle 4,4,4,4">
 
-                        <Grid RowDefinitions="Auto,*"  Margin="0,75,0,0">
-                            <Label 
-                                Grid.Row="0" 
-                                Text="Recently Viewed" 
-                                TextColor="#553600" 
-                                FontSize="18" 
-                                FontFamily="canva-sans-bold" 
-                                HorizontalOptions="Center"/>
-                            <CollectionView Grid.Row="1">
-                                <CollectionView.ItemsSource>
-                                    <x:Array Type="{x:Type model:Recent}">
-                                        <model:Recent
-                                            Image="dotnet_bot.png"
-                                            Name="Bread1"/>
-                                        <model:Recent
-                                            Image="dotnet_bot.png"
-                                            Name="Bread2"/>
-                                        <model:Recent
-                                            Image="dotnet_bot.png"
-                                            Name="Bread3"/>
-                                        <model:Recent
-                                            Image="dotnet_bot.png"
-                                            Name="Bread4"/>
-                                        <model:Recent
-                                            Image="dotnet_bot.png"
-                                            Name="Bread5"/>
-                                    </x:Array>
-                                </CollectionView.ItemsSource>
-                                <CollectionView.ItemTemplate>
-                                    <DataTemplate x:DataType="model:Recent">
-                                        <VerticalStackLayout Spacing="12" BackgroundColor="Transparent" Padding="8">
-                                            <Border HorizontalOptions="Center"
-                                                    Stroke="Transparent"
-                                                    StrokeThickness="0"
-                                                    BackgroundColor="#cca881"
-                                                    WidthRequest="340"
-                                                    HeightRequest="90">
-                                                <Border.StrokeShape>
-                                                    <RoundRectangle CornerRadius="100"/>
-                                                </Border.StrokeShape>
-                                                <HorizontalStackLayout Spacing="14">
-                                                    <Image Source="{Binding Image}" Aspect="Fill" Margin="10"/>
-                                                    <Label Text="{Binding Name}" FontSize="18" FontFamily="canva-sans-bold" TextColor="#553600" VerticalTextAlignment="Center"/>
-                                                </HorizontalStackLayout>
-                                            </Border>
-                                        </VerticalStackLayout>
-                                    </DataTemplate>
-                                </CollectionView.ItemTemplate>
-                            </CollectionView>
-                        </Grid>
-                    </VerticalStackLayout>
+                        <StackLayout Margin="0"
+                                     Padding="0"
+                                     Spacing="0">
+                            <!--IMAGE HEADER PATH-->
+                            <Image Aspect="AspectFill"
+                                   BackgroundColor="White"
+                                   HeightRequest="120"
+                                   HorizontalOptions="Fill">
+                                <Image.Source>
+                                    <UriImageSource 
+                                        CacheValidity="14"
+                                        CachingEnabled="True"
+                                        Uri="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczJzZXN3NDl4NHdhYmc0Y21zaWJseHlzeXR4NzMxZWY2bThnamludiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S99cgkURVO62qemEKM/giphy.gif"/>
+                                </Image.Source>
+                            </Image>
+                            
+                            <!--PROFILE PICTURE-->
+                            <Border Margin="0,-60,0,16"
+                                    BackgroundColor="Gray"
+                                    Stroke="White"
+                                    StrokeThickness="2"
+                                    StrokeShape="RoundRectangle 10,10,10,10"
+                                    HeightRequest="80"
+                                    HorizontalOptions="Center"
+                                    WidthRequest="80">
+
+                                <Image Margin="-10"
+                                       Aspect="Fill"
+                                       HeightRequest="80"
+                                       WidthRequest="80">
+                                    <Image.Source>
+                                        <UriImageSource 
+                                            CacheValidity="14"
+                                            CachingEnabled="True"
+                                            Uri="https://raw.githubusercontent.com/rakkuma-jpg/virtual_storage/main/images/lindawalker.jpg"/>
+                                    </Image.Source>
+                                </Image>
+                                
+                            </Border>
+                           
+                            <!--  Profile name  -->
+                            <Label
+                                FontSize="26"
+                                Style="{StaticResource PugonFont}"
+                                Text="Linda Walker"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center"
+                                LineHeight="{OnPlatform Android=1.5, Default=-1}"/>
+                            <!--  Edit profile button  -->
+                            <Button
+                                 Margin="0,0,0,16"
+                                 Text="Edit profile"
+                                 TextColor="#512BD4"
+                                 FontSize="14"
+                                 Style="{StaticResource PugonFont}"
+                                 Background="Transparent"
+                                 CornerRadius="24"
+                                 WidthRequest="120">
+                            </Button>
+                            <!-- About title -->
+                            <Label
+                                Margin="16,0,0,4"
+                                Text="About"
+                                FontSize="14"
+                                Style="{StaticResource PugonFont}"
+                                HorizontalOptions="Start"
+                                HorizontalTextAlignment="Start"
+                                LineHeight="{OnPlatform Android=1.5, Default=-1}"/>
+                            <!--  About description -->
+                            <Label
+                                Margin="16,0,16,24"
+                                FontSize="12"
+                                Style="{StaticResource PugonFont}"
+                                HorizontalOptions="Start"
+                                HorizontalTextAlignment="Start"
+                                LineHeight="{OnPlatform Android=1.5, Default=-1}"
+                                Text="I’m a self-taught home baker passionate about creating joy through custom treats. While I’m early in my journey, I pride myself on using fresh, high-quality ingredients and putting my heart into every batch."/>
+
+                        </StackLayout>
+                        
+                    </Border>
+                    
                 </Border>
-            </VerticalStackLayout>
+                
+            </Grid>
+
         </ScrollView>
-        <Border
-                Padding="8"
-                WidthRequest="120" 
-                HeightRequest="50" 
-                HorizontalOptions="End"
-                VerticalOptions="Start"
-                Stroke="Transparent"
-                StrokeThickness="0">
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="15" />
-            </Border.StrokeShape>
-            <Button 
-                    Text="Edit Profile"
-                    FontFamily="canva-sans-bold"
-                    TextColor="#553600"
-                    BackgroundColor="#cca881"
-                    FontSize="16"
-                    Padding="0"
-                    HorizontalOptions="Fill"
-                    VerticalOptions="Fill">
-            </Button>
-        </Border>
-    </Grid>
+    </ContentPage.Content>
 </ContentPage>
+    
+    

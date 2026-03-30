@@ -14,6 +14,7 @@ public class ModalNavigationManager_ModalFragment
 			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onStart:()V:GetOnStartHandler\n" +
+			"n_onResume:()V:GetOnResumeHandler\n" +
 			"n_onDismiss:(Landroid/content/DialogInterface;)V:GetOnDismiss_Landroid_content_DialogInterface_Handler\n" +
 			"n_onDestroy:()V:GetOnDestroyHandler\n" +
 			"";
@@ -63,6 +64,13 @@ public class ModalNavigationManager_ModalFragment
 	}
 
 	private native void n_onStart ();
+
+	public void onResume ()
+	{
+		n_onResume ();
+	}
+
+	private native void n_onResume ();
 
 	public void onDismiss (android.content.DialogInterface p0)
 	{

@@ -6,7 +6,7 @@ namespace Pugon.Model
 {
     public class Recent
     {
-        public string? Image { get; set; }
-        public string? Name { get; set; }
+        public string? Image { get; set; } = null;
+        public string? Name { get; set; } = null;
     }
 }

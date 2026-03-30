@@ -6,6 +6,6 @@ namespace Pugon.Model
 {
     public class Settings
     {
-        public string? Option { get; set; }
+        public string? Option { get; set; } = null;
     }
 }

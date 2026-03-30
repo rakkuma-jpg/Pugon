@@ -3,36 +3,75 @@
   "WorkspaceRootPath": "C:\\Users\\Ghost\\source\\repos\\Pugon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\viewmodel\\aiassistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:viewmodel\\aiassistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\aiassistviewfeatures.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\aiassistviewfeatures.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\aiassistviewfeatures.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\aiassistviewfeatures.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.43\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\breadspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\breadspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pugon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pugon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pugon.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pugon.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\breaddetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\breaddetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\chatmessageinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\chatmessageinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\recent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\recent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\chatbotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\chatbotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\resources\\raw\\breaddata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:resources\\raw\\breaddata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\breadspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\breadspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\viewmodel\\breadsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:viewmodel\\breadsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,253 +82,398 @@
       "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\viewmodel\\appshellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:viewmodel\\appshellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\breadspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\breadspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\breadspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\breadspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\loadingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\loadingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\model\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:model\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\chatbotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\chatbotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\pages\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:pages\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\viewmodel\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:viewmodel\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|c:\\users\\ghost\\source\\repos\\pugon\\popuppage\\popupbreaddetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD92161D-3532-9A45-FD6A-2494E67DA88C}|Pugon.csproj|solutionrelative:popuppage\\popupbreaddetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 206,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 251,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
+              "Title": "PopupBreadDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\PopupPage\\PopupBreadDetailsPage.xaml",
+              "RelativeDocumentMoniker": "PopupPage\\PopupBreadDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\PopupPage\\PopupBreadDetailsPage.xaml",
+              "RelativeToolTip": "PopupPage\\PopupBreadDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T13:46:25.474Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:58:40.698Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BreadsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\BreadsPage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml",
+              "RelativeToolTip": "Pages\\BreadsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T15:26:33.827Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BreadsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\BreadsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BreadsViewModel.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\BreadsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BreadsViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:27:07.358Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BreadsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\BreadsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml.cs",
+              "RelativeToolTip": "Pages\\BreadsPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:26:53.183Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BreadDetailModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\BreadDetailModel.cs",
+              "RelativeDocumentMoniker": "Model\\BreadDetailModel.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\BreadDetailModel.cs",
+              "RelativeToolTip": "Model\\BreadDetailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:27:31.662Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "RecipesPage.xaml",
               "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\RecipesPage.xaml",
               "RelativeDocumentMoniker": "Pages\\RecipesPage.xaml",
               "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\RecipesPage.xaml",
               "RelativeToolTip": "Pages\\RecipesPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAABRwA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:01:54.962Z",
+              "WhenOpened": "2026-03-16T15:29:48.527Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SettingsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\SettingsPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\SettingsPage.xaml",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\SettingsPage.xaml",
-              "RelativeToolTip": "Pages\\SettingsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:54:59.442Z",
+              "DocumentIndex": 25,
+              "Title": "RecipesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\RecipesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RecipesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\RecipesPage.xaml.cs",
+              "RelativeToolTip": "Pages\\RecipesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:29:52.177Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RecipesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\RecipesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RecipesViewModel.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\RecipesViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RecipesViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBZwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:30:04.499Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "breaddata.json",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Raw\\breaddata.json",
+              "RelativeDocumentMoniker": "Resources\\Raw\\breaddata.json",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Raw\\breaddata.json",
+              "RelativeToolTip": "Resources\\Raw\\breaddata.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T00:20:11.492Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Recent.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\Recent.cs",
-              "RelativeDocumentMoniker": "Model\\Recent.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\Recent.cs",
-              "RelativeToolTip": "Model\\Recent.cs",
+              "DocumentIndex": 5,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-30T09:22:00.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.43\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.43\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.43\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.43\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAiwNcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-30T09:21:57.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-30T06:44:57.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pugon",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pugon.csproj",
+              "RelativeDocumentMoniker": "Pugon.csproj",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pugon.csproj",
+              "RelativeToolTip": "Pugon.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T06:21:29.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChatMessageInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\ChatMessageInfoModel.cs",
+              "RelativeDocumentMoniker": "Model\\ChatMessageInfoModel.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\ChatMessageInfoModel.cs",
+              "RelativeToolTip": "Model\\ChatMessageInfoModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:35:20.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T06:12:08.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AIAssistViewFeatures.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\AIAssistViewFeatures.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AIAssistViewFeatures.xaml.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\AIAssistViewFeatures.xaml.cs",
+              "RelativeToolTip": "Pages\\AIAssistViewFeatures.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T05:28:05.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AIAssistViewFeatures.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\AIAssistViewFeatures.xaml",
+              "RelativeDocumentMoniker": "Pages\\AIAssistViewFeatures.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\AIAssistViewFeatures.xaml",
+              "RelativeToolTip": "Pages\\AIAssistViewFeatures.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T05:23:38.302Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\Profile.cs",
-              "RelativeDocumentMoniker": "Model\\Profile.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\Profile.cs",
-              "RelativeToolTip": "Model\\Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AIService.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\AIService.cs",
+              "RelativeDocumentMoniker": "Model\\AIService.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\AIService.cs",
+              "RelativeToolTip": "Model\\AIService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCEAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:35:19.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:59:59.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppShellViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\AppShellViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\AppShellViewModel.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\AppShellViewModel.cs",
-              "RelativeToolTip": "ViewModel\\AppShellViewModel.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:45:13.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Microsoft.Maui.Resizetizer.After.targets",
-              "DocumentMoniker": "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ToolTip": "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ViewState": "AgIAAIEDAAAAAAAAAAAEwIQDAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-02-28T12:39:46.964Z"
+              "WhenOpened": "2026-03-30T05:18:47.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AIAssistViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\AIAssistViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AIAssistViewModel.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\ViewModel\\AIAssistViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AIAssistViewModel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T05:14:56.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
               "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:35:10.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T08:09:06.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
               "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:58.022Z"
+              "WhenOpened": "2026-03-29T08:07:53.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BreadsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\BreadsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml.cs",
-              "RelativeToolTip": "Pages\\BreadsPage.xaml.cs",
+              "DocumentIndex": 19,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\App.xaml",
+              "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:54.613Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-29T08:07:51.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChatbotPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ChatbotPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\ChatbotPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ChatbotPage.xaml.cs",
-              "RelativeToolTip": "Pages\\ChatbotPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:53.801Z"
+              "DocumentIndex": 9,
+              "Title": "Pugon.csproj",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pugon.csproj",
+              "RelativeDocumentMoniker": "Pugon.csproj",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pugon.csproj",
+              "RelativeToolTip": "Pugon.csproj",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwKYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-29T08:00:53.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "FavoritesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\FavoritesPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\FavoritesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\FavoritesPage.xaml.cs",
-              "RelativeToolTip": "Pages\\FavoritesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:52.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoadingPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\LoadingPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\LoadingPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\LoadingPage.xaml.cs",
-              "RelativeToolTip": "Pages\\LoadingPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:50.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Pages\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:47.343Z"
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Pages\\LoginPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-26T14:33:55.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Ghost\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAADECAAAAAAAAAAAmwEACAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-26T13:55:43.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:35:13.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\ProfilePage.xaml.cs",
@@ -297,95 +481,11 @@
               "RelativeToolTip": "Pages\\ProfilePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:44.182Z"
+              "WhenOpened": "2026-03-24T07:02:05.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SettingsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\SettingsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\SettingsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\SettingsPage.xaml.cs",
-              "RelativeToolTip": "Pages\\SettingsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:34:42.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAWwAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:27:13.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BreadsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\BreadsPage.xaml",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\BreadsPage.xaml",
-              "RelativeToolTip": "Pages\\BreadsPage.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:25:37.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RecipesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\RecipesPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\RecipesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\RecipesPage.xaml.cs",
-              "RelativeToolTip": "Pages\\RecipesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:12:40.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:11:59.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-28T12:01:00.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:00:55.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 27,
               "Title": "Recipes.cs",
               "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Model\\Recipes.cs",
               "RelativeDocumentMoniker": "Model\\Recipes.cs",
@@ -393,31 +493,56 @@
               "RelativeToolTip": "Model\\Recipes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:00:43.155Z"
+              "WhenOpened": "2026-03-24T07:02:00.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AboutAssets.txt",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Raw\\AboutAssets.txt",
-              "RelativeDocumentMoniker": "Resources\\Raw\\AboutAssets.txt",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Raw\\AboutAssets.txt",
-              "RelativeToolTip": "Resources\\Raw\\AboutAssets.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-28T11:57:29.197Z"
+              "DocumentIndex": 21,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Pages\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-23T20:48:32.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "breaddata.json",
-              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Raw\\breaddata.json",
-              "RelativeDocumentMoniker": "Resources\\Raw\\breaddata.json",
-              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Resources\\Raw\\breaddata.json",
-              "RelativeToolTip": "Resources\\Raw\\breaddata.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-28T11:54:06.463Z"
+              "DocumentIndex": 28,
+              "Title": "ChatbotPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ChatbotPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ChatbotPage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ChatbotPage.xaml",
+              "RelativeToolTip": "Pages\\ChatbotPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-23T12:08:55.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FavoritesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\FavoritesPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\FavoritesPage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\FavoritesPage.xaml",
+              "RelativeToolTip": "Pages\\FavoritesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-23T12:08:37.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Ghost\\source\\repos\\Pugon\\Pages\\ProfilePage.xaml",
+              "RelativeToolTip": "Pages\\ProfilePage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-17T09:44:44.527Z",
+              "EditorCaption": ""
             }
           ]
         }

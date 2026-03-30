@@ -9,6 +9,7 @@ build_property.MauiXamlNoWarn =
 build_property.EnableMauiXamlDiagnostics = true
 build_property.MauiXamlLineInfo = 
 build_property.Configuration = Debug
+build_property.EnablePreviewFeatures = 
 build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
 build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
 build_property.CsWinRTComponent = 
@@ -46,6 +47,16 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Pugon.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/Pages/AIAssistViewFeatures.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.Pages.AIAssistViewFeatures.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AIAssistViewFeatures.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AIAssistViewFeatures.xaml
 build_metadata.AdditionalFiles.Inflator = SourceGen
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 
@@ -141,6 +152,36 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[C:/Users/Ghost/source/repos/Pugon/Pages/SignUp_CredentialsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.Pages.SignUp_CredentialsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SignUp_CredentialsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SignUp_CredentialsPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/Pages/SignUp_IdentityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.Pages.SignUp_IdentityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SignUp_IdentityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SignUp_IdentityPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/PopupPage/PopupBreadDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.PopupPage.PopupBreadDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PopupPage\PopupBreadDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PopupPage\PopupBreadDetailsPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [C:/Users/Ghost/source/repos/Pugon/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Pugon.Resources.Styles.Colors.xaml
@@ -156,6 +197,56 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Pugon.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/View/BreadDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.View.BreadDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BreadDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BreadDetails.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/View/IncomingImageTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.View.IncomingImageTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = View\IncomingImageTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = View\IncomingImageTemplate.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/View/IncomingTextTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.View.IncomingTextTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = View\IncomingTextTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = View\IncomingTextTemplate.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/View/OutgoingImageTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.View.OutgoingImageTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = View\OutgoingImageTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = View\OutgoingImageTemplate.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Ghost/source/repos/Pugon/View/OutgoingTextTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pugon.View.OutgoingTextTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = View\OutgoingTextTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = View\OutgoingTextTemplate.xaml
 build_metadata.AdditionalFiles.Inflator = SourceGen
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 

@@ -6,4 +6,9 @@ public partial class SettingsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+    protected override bool OnBackButtonPressed()
+    {
+        Shell.Current.GoToAsync("..");
+        return true; // Indicate that the back button press has been handled
+    }
 }

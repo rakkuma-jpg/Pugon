@@ -11,19 +11,12 @@ namespace Pugon
         {
             InitializeComponent();
             this.BindingContext = viewModel;
-            
-            Routing.RegisterRoute(nameof(LoadingPage), typeof(LoadingPage));
-            Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
 
-            Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
-
-            Routing.RegisterRoute(nameof(RecipesPage), typeof(RecipesPage));
-            Routing.RegisterRoute(nameof(BreadsPage), typeof(BreadsPage));
-
-            Routing.RegisterRoute(nameof(ChatbotPage), typeof(ChatbotPage));
-            Routing.RegisterRoute(nameof(FavoritesPage), typeof(FavoritesPage));
-            Routing.RegisterRoute(nameof(ProfilePage), typeof(ProfilePage));
+            Routing.RegisterRoute(nameof(SignUp_IdentityPage), typeof(SignUp_IdentityPage));
+            Routing.RegisterRoute(nameof(SignUp_CredentialsPage), typeof(SignUp_CredentialsPage));
+            Routing.RegisterRoute("breadspage", typeof(BreadsPage));
             Routing.RegisterRoute(nameof(SettingsPage), typeof(SettingsPage));
+
         }
     }
 }

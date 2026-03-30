@@ -2,11 +2,107 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pugon.Pages.ChatbotPage"
-             Title="Pugon">
-    <VerticalStackLayout>
-        <Label 
-            Text="Chatbot"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="TinapAI"
+             xmlns:model="clr-namespace:Pugon.ViewModel"
+             xmlns:converter="clr-namespace:Pugon.Converters"
+             xmlns:templateSelector="clr-namespace:Pugon.Pages"
+             x:DataType="model:ChatMessageViewModel">
+    <ContentPage.BindingContext>
+        <model:ChatMessageViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:DateTimeToStringConverter x:Key="DataTimeToStringConverter"/>
+            <templateSelector:MessageDataTemplateSelector x:Key="MessageDataTemplateSelector"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid MaximumWidthRequest="{OnPlatform WinUI=900}"
+          RowDefinitions="Auto, *, Auto">
+
+            <!-- HEADER -->
+            <Grid Grid.Row="0"
+              RowDefinitions="Auto, Auto"
+              RowSpacing="0">
+
+                <Grid 
+                  Padding="4,10,10,10"
+                  BackgroundColor="#FFF1B3"
+                  HorizontalOptions="Fill"
+                  VerticalOptions="Fill">
+
+                    <!-- Profile Name -->
+                    <Label 
+                       HorizontalOptions="Fill"
+                       HorizontalTextAlignment="Center"
+                       Text="TinapAI"
+                       VerticalOptions="Center"
+                       VerticalTextAlignment="Center" />
+
+                </Grid>
+            </Grid>
+
+            <!-- CHAT LIST -->
+            <CollectionView
+                Grid.Row="1"
+                x:Name="MessagesView"
+                ItemsSource="{Binding UserProfile.ChatMessageInfo}"
+                ItemTemplate="{DynamicResource MessageDataTemplateSelector}"
+                SelectionMode="None"
+                BackgroundColor="Transparent" />
+
+            <!-- FIXED FOOTER -->
+            <Grid Grid.Row="2"
+              Padding="16,5,16,24"
+              ColumnDefinitions="*, Auto"
+              ColumnSpacing="16"
+              BackgroundColor="Transparent">
+
+                <!-- Rounded Border -->
+                <Border BackgroundColor="Transparent"
+                    Padding="5,0"
+                    Stroke="Transparent"
+                    StrokeThickness="0"
+                    StrokeShape="RoundRectangle 25"
+                    Style="{DynamicResource ThemeBorderStyle}">
+
+                    <Grid ColumnDefinitions="*, Auto, Auto"
+                      ColumnSpacing="0">
+
+                        <!-- Editor -->
+                        <Editor Margin="5,0"
+                            Placeholder="Type here"
+                            Style="{DynamicResource BorderlessEditorStyle}"
+                            TextColor="{AppThemeBinding Light={DynamicResource PrimaryTextColorLight}, Dark={DynamicResource PrimaryTextColorDark}}" />
+
+                        <!-- Camera -->
+                        <Button Grid.Column="1"
+                            Style="{DynamicResource IconButtonStyle}"
+                            Text="{DynamicResource Camera}"
+                            VerticalOptions="End" />
+
+                        <!-- Attachment -->
+                        <Button Grid.Column="2"
+                            Style="{DynamicResource IconButtonStyle}"
+                            Text="{DynamicResource Attachment}"
+                            VerticalOptions="End" />
+
+                    </Grid>
+                </Border>
+
+                <!-- Send Button -->
+                <Button Grid.Column="1"
+                    Padding="0,2,2,0"
+                    Background="{AppThemeBinding Light={DynamicResource PrimaryColorLight}, Dark={DynamicResource PrimaryColorDark}}"
+                    HorizontalOptions="End"
+                    Style="{DynamicResource IconButtonStyle}"
+                    Text="{DynamicResource Send}"
+                    TextColor="{DynamicResource Gray-White}"
+                    VerticalOptions="End" />
+
+            </Grid>
+
+        </Grid>
+    </ContentPage.Content>
+
 </ContentPage>

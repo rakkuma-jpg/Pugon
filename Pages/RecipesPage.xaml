@@ -4,7 +4,27 @@
              x:Class="Pugon.Pages.RecipesPage"
              xmlns:model="clr-namespace:Pugon.Model"
              xmlns:viewmodel="clr-namespace:Pugon.ViewModel"
-             Title="Pugon">
+             x:DataType="viewmodel:RecipesViewModel"
+             Title="Recipes">
 
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+        <!-- Difficulty Buttons -->
+        <HorizontalStackLayout Spacing="10" >
+            <Button Text="Easy"
+                    Command="{Binding NavigateToBreadsCommand}"
+                    CommandParameter="Easy"
+                    BackgroundColor="White"/>
+            <Button Text="Medium"
+                    Command="{Binding NavigateToBreadsCommand}"
+                    CommandParameter="Medium"
+                    BackgroundColor="White"/>
+            <Button Text="Hard"
+                    Command="{Binding NavigateToBreadsCommand}"
+                    CommandParameter="Hard"
+                    BackgroundColor="White"/>
+        </HorizontalStackLayout>
+
+    </StackLayout>
 
 </ContentPage>

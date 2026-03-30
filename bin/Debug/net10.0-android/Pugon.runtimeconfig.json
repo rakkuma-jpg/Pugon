@@ -4,7 +4,7 @@
     "includedFrameworks": [
       {
         "name": "Microsoft.NETCore.App",
-        "version": "10.0.3"
+        "version": "10.0.5"
       },
       {
         "name": "Microsoft.Android",
@@ -27,7 +27,6 @@
       "System.Net.SocketsHttpHandler.Http3Support": false,
       "System.Runtime.InteropServices.BuiltInComInterop.IsSupported": false,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
-      "System.StartupHookProvider.IsSupported": false,
       "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
       "System.Text.Json.JsonSerializer.IsReflectionEnabledByDefault": true,
       "Xamarin.Android.Net.UseNegotiateAuthentication": false,

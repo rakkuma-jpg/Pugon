@@ -45,6 +45,13 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+
+		<!-- insert the following line to enable the .NET MAUI workload check during build and restore operations.  This will ensure that the correct workloads are installed and will provide a clear error message if not.  For more information, see https://aka.ms/mauicheckworkload
+		<UseInterpreter Condition="'$(Configuration)' == 'Debug'">false</UseInterpreter>
+		<RuntimeIdentifiers>android-arm;android-arm64</RuntimeIdentifiers>
+		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+		-->
+
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -66,14 +73,37 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
+	  <MauiFont Remove="C:\Users\Ghost\.nuget\packages\syncfusion.maui.core\33.1.44\buildTransitive\..\buildTransitive\Resources\Fonts\MauiMaterialAssets.ttf" />
+	  <MauiFont Remove="C:\Users\Ghost\.nuget\packages\syncfusion.maui.toolkit\1.0.9\buildTransitive\..\buildTransitive\Resources\Fonts\MauiMaterialAssets.ttf" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\Tab_Icons\" />
-	  <Folder Include="View\" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="14.0.1" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.5" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Maui.Controls.Core" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Maui.Controls.Xaml" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Maui.Graphics" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Maui.Resizetizer" Version="10.0.50" />
+		<PackageReference Include="OllamaSharp" Version="5.4.25" />
+		<PackageReference Include="Plugin.Maui.Popup" Version="1.0.6" />
+		<PackageReference Include="Syncfusion.Maui.AIAssistView" Version="33.1.45" />
+		<PackageReference Include="Syncfusion.Maui.Core" Version="33.1.45" />
+		<PackageReference Include="Syncfusion.Maui.DataForm" Version="33.1.44" />
+		<PackageReference Include="Syncfusion.Maui.Popup" Version="33.1.45" />
+		<PackageReference Include="Syncfusion.Maui.ProgressBar" Version="33.1.45" />
+		<PackageReference Include="Syncfusion.Maui.Toolkit" Version="1.0.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\main_Logo\logo.png" />
+	  <MauiImage Include="Resources\Images\tab_Icons\book.png" />
+	  <MauiImage Include="Resources\Images\tab_Icons\favorites.png" />
+	  <MauiImage Include="Resources\Images\tab_Icons\home.png" />
+	  <MauiImage Include="Resources\Images\tab_Icons\loffai.png" />
+	  <MauiImage Include="Resources\Images\tab_Icons\profile.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -83,6 +113,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Pages\AIAssistViewFeatures.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\BreadsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -108,6 +141,30 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SettingsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\SignUp_CredentialsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\SignUp_IdentityPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="PopupPage\PopupBreadDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\BreadDetails.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\IncomingImageTemplate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\IncomingTextTemplate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\OutgoingImageTemplate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\OutgoingTextTemplate.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

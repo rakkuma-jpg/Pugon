@@ -1,3 +1,6 @@
+canva-sans-regular.otf
+Inter-VariableFont.ttf
+MauiMaterialAssets.ttf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
 appicon.ico
@@ -46,13 +49,19 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+book.scale-100.png
 car.scale-100.jpg
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+favorites.scale-100.png
+home.scale-100.png
 linda_walker.scale-100.jpg
+loffai.scale-100.png
+logo.scale-100.png
+profile.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

@@ -10,7 +10,6 @@ public partial class LoadingPage : ContentPage
 		InitializeComponent();
 		_authservice = authService;
 	}
-
 	protected async override void OnNavigatedTo(NavigatedToEventArgs args)
 	{
 		base.OnNavigatedTo(args);

@@ -4,7 +4,8 @@
              x:Class="Pugon.Pages.SettingsPage"
              xmlns:model="clr-namespace:Pugon.Model"
              Title="Settings"
-             Shell.NavBarIsVisible="True">
+             Shell.TabBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled">
     <Grid RowDefinitions="Auto,Auto,*" RowSpacing="10">
         <Grid Grid.Row="0" RowDefinitions="Auto,Auto" RowSpacing="25">
             <Label
